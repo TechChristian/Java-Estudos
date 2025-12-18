@@ -27,5 +27,16 @@ class conversionNumber {
         System.out.println(productValue);
     }
 }
+//operators AND e OR
+class operators {
+    public static void main(String[] args){
+        boolean thereIsAJob = true;
+        boolean hasCompany = false;
+        boolean has50k = true;
+        boolean has18years = false;
+        boolean canFinance = (thereIsAJob || hasCompany) && has50k && has18years;
+        System.out.println(canFinance);
+    }
+}
 
 

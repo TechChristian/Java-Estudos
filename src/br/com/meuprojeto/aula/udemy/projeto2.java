@@ -1,7 +1,7 @@
 package br.com.meuprojeto.aula.udemy;
 
 import java.util.Arrays;
-
+//Exercicio de ler arrays, ordenar elas utilizando "Sort"
 public class projeto2 {
     static void sortArrays(int[] i, String[] s) {
         Arrays.sort(i);

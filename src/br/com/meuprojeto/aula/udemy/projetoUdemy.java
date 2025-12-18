@@ -1,7 +1,7 @@
 package br.com.meuprojeto.aula.udemy;
 
 import java.util.Scanner;
-
+//Aprendendo a somar números.
 public class projetoUdemy {
     public static void main(String[] args) {
         Scanner calculadora = new Scanner(System.in);

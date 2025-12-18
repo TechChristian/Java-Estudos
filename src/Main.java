@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Main {
+
+    //Utilizando IF e ElSE para verificar operações.
     public static void main(String[] args) {
         String firstName = "Christian";
         Scanner minhaIdade = new Scanner(System.in);

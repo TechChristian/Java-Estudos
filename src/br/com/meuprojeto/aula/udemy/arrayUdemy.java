@@ -3,6 +3,7 @@ package br.com.meuprojeto.aula.udemy;
 import java.text.NumberFormat;
 import java.util.Arrays;
 
+//Leitura de Arrays
 public class arrayUdemy {
     public static void main(String [] args) {
         int [] values = {10,20,15, 30, 40};
@@ -11,7 +12,7 @@ public class arrayUdemy {
         System.out.println(values.length);
     }
 }
-
+//Duas Arrays em uma
 class arrayString {
     public static void main(String[] args) {
         String [][] cars = {{"Tesla", "Mercedes"}, {"BMW", "Fiat"}};

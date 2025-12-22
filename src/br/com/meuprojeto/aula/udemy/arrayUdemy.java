@@ -39,4 +39,14 @@ class operators {
     }
 }
 
+class operatorTernario {
+    public static void main(String[] args){
+        int ingresso = 800;
+        String terAcesso = ingresso >= 500 ? "VIP" : "Pista";
+        System.out.println(terAcesso);
+    }
+}
+
+
+
 

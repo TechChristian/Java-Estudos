@@ -2,6 +2,8 @@ package br.com.meuprojeto.aula.udemy;
 
 import java.text.NumberFormat;
 import java.util.Arrays;
+import java.util.Locale;
+import java.util.Scanner;
 
 //Leitura de Arrays
 public class arrayUdemy {
@@ -45,6 +47,33 @@ class operatorTernario {
         String terAcesso = ingresso >= 500 ? "VIP" : "Pista";
         System.out.println(terAcesso);
     }
+}
+
+class switchEstudos {
+    public static void main(String [] args){
+        // Coleta o nome do produto
+        System.out.print("Digite o nome do produto: ");
+        Scanner s = new Scanner(System.in);
+        String nomeProduto = s.next().toLowerCase(); //transforma a letra conforme a escrita do usuario.
+
+        // Retornar o valor do produto
+
+        switch (nomeProduto) {
+            case "banana":
+                System.out.println("9,50");
+                break;
+            case "manga":
+                System.out.println("11,50");
+                break;
+            case "maça":
+                System.out.println("7,50");
+                break;
+            default:
+                System.out.println("Produto não encontrado");
+        }
+
+    }
+
 }
 
 

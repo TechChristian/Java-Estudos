@@ -2,11 +2,10 @@ package br.com.meuprojeto.aula.udemy;
 
 import java.text.NumberFormat;
 import java.util.Arrays;
-import java.util.Locale;
 import java.util.Scanner;
 
 //Leitura de Arrays
-public class arrayUdemy {
+public class udemyEstudos {
     public static void main(String [] args) {
         int [] values = {10,20,15, 30, 40};
         Arrays.sort(values);

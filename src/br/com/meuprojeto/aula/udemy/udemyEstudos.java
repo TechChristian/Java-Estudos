@@ -75,6 +75,27 @@ class switchEstudos {
 
 }
 
+class loopsEstudos {
+    public static void main(String[] args){
+        String [] items = {"Mouse", "Teclado", "MousePad", "Cadeira", "Monitor"};
+        for (int i =0; i < items.length; i++){
+            System.out.println(items[i]);
+        }
+    }
+}
+
+class nestedLoop {
+    public static void main(String[] args){
+        for(int i = 0; i < 2; i++)
+            for(int j = 0; j < 2; j++)
+                System.out.println(i + " " + j);
+
+    }
+}
+
+
+
+
 
 
 

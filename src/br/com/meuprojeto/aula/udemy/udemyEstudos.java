@@ -78,7 +78,7 @@ class switchEstudos {
 class forLoop {
     public static void main(String[] args){
         String [] items = {"Mouse", "Teclado", "MousePad", "Cadeira", "Monitor"};
-        for (int i =0; i < items.length; i++){
+        for(int i =0; i < items.length; i++){
             System.out.println(items[i]);
         }
     }

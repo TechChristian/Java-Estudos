@@ -15,3 +15,16 @@ public class projeto4 {
         }
     }
 }
+
+//Percorra uma string e imprima cada caractere separado por um espaço.
+class projeto4_2 {
+    public static void main(String[] args){
+        String message = "Hello World";
+            for(int i =0; i < message.length(); i++){
+                System.out.print(message.charAt(i) + " ");
+        }
+    }
+}
+
+
+

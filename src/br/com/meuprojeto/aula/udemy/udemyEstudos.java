@@ -75,7 +75,7 @@ class switchEstudos {
 
 }
 
-class loopsEstudos {
+class forLoop {
     public static void main(String[] args){
         String [] items = {"Mouse", "Teclado", "MousePad", "Cadeira", "Monitor"};
         for (int i =0; i < items.length; i++){
@@ -92,8 +92,16 @@ class nestedLoop {
 
     }
 }
-
-
+//A diferença entre o while e o for, é que o while é usado quando não sabemos o número exato de iterações.
+class whileLoop {
+    public static void main(String[] args){
+        int i = 0;
+        while(i <= 5){
+            System.out.println(i + " - Hi");
+            i++;
+        }
+    }
+}
 
 
 
